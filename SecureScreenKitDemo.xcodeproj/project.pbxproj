@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F4DB50C2F004C4200F74830 /* SecureScreenKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2F4DB50B2F004C4200F74830 /* SecureScreenKit */; };
+		2FB472F62F00547900AEF234 /* SecureScreenKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2FB472F52F00547900AEF234 /* SecureScreenKit */; };
 		A1000001001 /* SecureScreenKitDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002001 /* SecureScreenKitDemoApp.swift */; };
 		A1000001002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000002002 /* Assets.xcassets */; };
 		A1000001004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002005 /* ContentView.swift */; };
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F4DB50C2F004C4200F74830 /* SecureScreenKit in Frameworks */,
+				2FB472F62F00547900AEF234 /* SecureScreenKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +115,7 @@
 			);
 			name = SecureScreenKitDemo;
 			packageProductDependencies = (
-				2F4DB50B2F004C4200F74830 /* SecureScreenKit */,
+				2FB472F52F00547900AEF234 /* SecureScreenKit */,
 			);
 			productName = SecureScreenKitDemo;
 			productReference = A1000002003 /* SecureScreenKitDemo.app */;
@@ -146,7 +146,7 @@
 			);
 			mainGroup = A1000005001;
 			packageReferences = (
-				2F4DB50A2F004C4200F74830 /* XCRemoteSwiftPackageReference "SecureScreenKit" */,
+				2FB472F42F00547800AEF234 /* XCRemoteSwiftPackageReference "SecureScreenKit" */,
 			);
 			productRefGroup = A1000005003 /* Products */;
 			projectDirPath = "";
@@ -390,20 +390,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2F4DB50A2F004C4200F74830 /* XCRemoteSwiftPackageReference "SecureScreenKit" */ = {
+		2FB472F42F00547800AEF234 /* XCRemoteSwiftPackageReference "SecureScreenKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SameerNadaf/SecureScreenKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.1.0;
+				minimumVersion = 1.1.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2F4DB50B2F004C4200F74830 /* SecureScreenKit */ = {
+		2FB472F52F00547900AEF234 /* SecureScreenKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2F4DB50A2F004C4200F74830 /* XCRemoteSwiftPackageReference "SecureScreenKit" */;
+			package = 2FB472F42F00547800AEF234 /* XCRemoteSwiftPackageReference "SecureScreenKit" */;
 			productName = SecureScreenKit;
 		};
 /* End XCSwiftPackageProductDependency section */

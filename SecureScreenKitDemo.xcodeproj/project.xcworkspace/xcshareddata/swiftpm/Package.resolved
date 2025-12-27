@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SameerNadaf/SecureScreenKit.git",
       "state" : {
-        "revision" : "f1e41cd3394c895d63e7ffefaa5b521839feb842",
-        "version" : "1.1.0"
+        "revision" : "81072f28353a17830d04fb5c5fa23e3e27513cc9",
+        "version" : "1.1.1"
       }
     }
   ],
