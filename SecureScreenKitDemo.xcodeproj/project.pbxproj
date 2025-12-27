@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F4DB50C2F004C4200F74830 /* SecureScreenKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2F4DB50B2F004C4200F74830 /* SecureScreenKit */; };
 		A1000001001 /* SecureScreenKitDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002001 /* SecureScreenKitDemoApp.swift */; };
 		A1000001002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000002002 /* Assets.xcassets */; };
-		A1000001003 /* SecureScreenKit in Frameworks */ = {isa = PBXBuildFile; productRef = A1000003001 /* SecureScreenKit */; };
 		A1000001004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002005 /* ContentView.swift */; };
 		A1000001005 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002006 /* HomeView.swift */; };
 		A1000001006 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002007 /* DemoView.swift */; };
@@ -25,7 +25,6 @@
 		A1000002001 /* SecureScreenKitDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureScreenKitDemoApp.swift; sourceTree = "<group>"; };
 		A1000002002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1000002003 /* SecureScreenKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureScreenKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1000002004 /* SecureScreenKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SecureScreenKit; path = ../SecureScreenKit; sourceTree = "<group>"; };
 		A1000002005 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1000002006 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A1000002007 /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
@@ -42,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1000001003 /* SecureScreenKit in Frameworks */,
+				2F4DB50C2F004C4200F74830 /* SecureScreenKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +53,6 @@
 			children = (
 				A1000005002 /* SecureScreenKitDemo */,
 				A1000005003 /* Products */,
-				A1000005004 /* Packages */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,14 +72,6 @@
 				A1000002003 /* SecureScreenKitDemo.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A1000005004 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				A1000002004 /* SecureScreenKit */,
-			);
-			name = Packages;
 			sourceTree = "<group>";
 		};
 		A1000005005 /* Views */ = {
@@ -125,7 +115,7 @@
 			);
 			name = SecureScreenKitDemo;
 			packageProductDependencies = (
-				A1000003001 /* SecureScreenKit */,
+				2F4DB50B2F004C4200F74830 /* SecureScreenKit */,
 			);
 			productName = SecureScreenKitDemo;
 			productReference = A1000002003 /* SecureScreenKitDemo.app */;
@@ -155,6 +145,9 @@
 				Base,
 			);
 			mainGroup = A1000005001;
+			packageReferences = (
+				2F4DB50A2F004C4200F74830 /* XCRemoteSwiftPackageReference "SecureScreenKit" */,
+			);
 			productRefGroup = A1000005003 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -396,9 +389,21 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		2F4DB50A2F004C4200F74830 /* XCRemoteSwiftPackageReference "SecureScreenKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SameerNadaf/SecureScreenKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		A1000003001 /* SecureScreenKit */ = {
+		2F4DB50B2F004C4200F74830 /* SecureScreenKit */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 2F4DB50A2F004C4200F74830 /* XCRemoteSwiftPackageReference "SecureScreenKit" */;
 			productName = SecureScreenKit;
 		};
 /* End XCSwiftPackageProductDependency section */

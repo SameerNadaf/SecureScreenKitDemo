@@ -1,0 +1,15 @@
+{
+  "originHash" : "e139f2cc784fb1f1a850d5befe6e1ee216d046e192dc8141b0f88412a168dcd9",
+  "pins" : [
+    {
+      "identity" : "securescreenkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SameerNadaf/SecureScreenKit.git",
+      "state" : {
+        "revision" : "f1e41cd3394c895d63e7ffefaa5b521839feb842",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}
